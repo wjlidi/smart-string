@@ -1,0 +1,29 @@
+{
+    "name":        "smartguy/smart-string",
+    "type":        "library",
+
+    "description": "Various Helper classes. Quite useful sometimes",
+
+    "authors": [
+        {
+            "name":  "Jlidi Walid",
+            "email": "wjlidi@smart-team.tn",
+            "role":  "Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0"
+    },
+
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "tomkyle\\": "src/"
+        }
+    }
+
+}
